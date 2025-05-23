@@ -2,6 +2,10 @@ a {
     color: grey;
 }
 
+.about-us-pic {
+    justify-content: flex-start;
+}
+
 body {
     background-color: #181C14;
     color: white;
@@ -19,8 +23,9 @@ button {
 
 footer {
     color: white;
-    margin-left: 700px;
-    margin-right: 700px;
+    font-size: small;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 #form {
@@ -73,6 +78,20 @@ label {
     padding: 3px 0px;
 }
 
+.our-team {
+    align-items: center;
+    background-color: #ECDFCC;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    font-size: xx-large;
+    margin-bottom: 45px;
+    margin-left: 400px;
+    margin-right: 400px;
+    gap: 20px;
+    padding: 20px
+}
+
 #section-title {
     text-align: center;
 }
@@ -83,10 +102,25 @@ label {
     color: black;
     font-size: xx-large;
     margin-bottom: 45px;
-    margin-left: 250px;
-    margin-right: 1050px;
+    margin-left: 260px;
+    margin-right: 680px;
+    margin-top: 45px;
     padding-bottom: 24px;
     padding-left: 20px;
     padding-top: 4px;
     text-align: left;
+}
+
+.welcome-to-the-colony {
+    background-color: #697565;
+    border-radius: 10px;
+    font-size: xx-large;
+    margin-bottom: 45px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
