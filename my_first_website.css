@@ -1,0 +1,60 @@
+body {
+    background-color: #181C14;
+    color: white;
+    font-family: 'Didact Gothic';
+    text-align: center;
+}
+
+button {
+    border: 1px black;
+    border-radius: 5px;
+    font-size: large;
+    margin-top: 20px;
+    padding: 3px 7px;
+}
+
+#form {
+    background-color: #697565;
+    border-radius: 10px;
+    font-size: x-large;
+    margin-bottom: 45px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 27px;
+    padding-top: 20px;
+}
+
+footer {
+    color: white;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+hr {
+    width: 80%;
+}
+
+input {
+    font-size: large;
+    padding-bottom: 3px 0px;
+}
+
+#intro {
+    background-color: #3C3D37;
+    border-radius: 20px;
+    font-size: xx-large;
+    margin-bottom: 45px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 24px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+label {
+    padding: 3px 0px;
+}
+
+a {
+    color: grey;
+}
