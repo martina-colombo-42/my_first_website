@@ -1,3 +1,7 @@
+a {
+    color: grey;
+}
+
 body {
     background-color: #181C14;
     color: white;
@@ -13,6 +17,12 @@ button {
     padding: 3px 7px;
 }
 
+footer {
+    color: white;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
 #form {
     background-color: #697565;
     border-radius: 10px;
@@ -24,10 +34,18 @@ button {
     padding-top: 20px;
 }
 
-footer {
-    color: white;
-    margin-left: 700px;
-    margin-right: 700px;
+#home-page-body {
+    background-color: #697565;
+    border-radius: 10px;
+    font-size: xx-large;
+    margin-bottom: 45px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: left;
 }
 
 hr {
@@ -55,6 +73,20 @@ label {
     padding: 3px 0px;
 }
 
-a {
-    color: grey;
+#section-title {
+    text-align: center;
+}
+
+#table-of-contents {
+    background-color: #ECDFCC;
+    border-radius: 20px;
+    color: black;
+    font-size: xx-large;
+    margin-bottom: 45px;
+    margin-left: 250px;
+    margin-right: 1050px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-top: 4px;
+    text-align: left;
 }
