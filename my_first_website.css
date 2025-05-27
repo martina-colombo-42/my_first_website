@@ -10,7 +10,7 @@ body {
     align-items: center;
     background-color: #181C14;
     color: white;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Didact Gothic' sans-serif;
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@ footer {
     justify-content: center;
 }
 
-#form {
+.form {
     align-items: center;
     background-color: #697565;
     border-radius: 10px;
@@ -48,7 +48,7 @@ footer {
     padding: 2% 1.5%;
 }
 
-#home-page-body {
+.home-page-body {
     align-items: center;
     background-color: #697565;
     border-radius: 10px;
@@ -80,7 +80,7 @@ input {
     padding-bottom: 0.28% 0;
 }
 
-#intro {
+.intro {
     align-items: center;
     background-color: #3C3D37;
     border-radius: 20px;
@@ -115,11 +115,14 @@ label {
 }
 
 .section-title {
-    align-items: center;
     text-align: center;
 }
 
-#table-of-contents {
+.section-title a {
+    color: inherit;
+}
+
+.table-of-contents {
     align-items: center;
     background-color: #ECDFCC;
     border: 5px solid black;
