@@ -10,7 +10,7 @@ body {
     align-items: center;
     background-color: #181C14;
     color: white;
-    font-family: 'Didact Gothic' sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -77,7 +77,7 @@ hr {
 
 input {
     font-size: large;
-    padding-bottom: 0.28% 0;
+    padding-bottom: 0.28%;
 }
 
 .intro {
