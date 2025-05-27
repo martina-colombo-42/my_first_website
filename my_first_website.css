@@ -1,8 +1,16 @@
+* {
+    cursor: url('images/bat_cursor_46.png'), auto;
+}
+
 a {
     color: grey;
 }
 
-.about-us-pic {
+a:hover {
+    color: white;
+}
+
+#about-us-pic {
     justify-content: flex-start;
 }
 
@@ -15,7 +23,6 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-
 }
 
 button {
@@ -96,6 +103,30 @@ input {
 
 label {
     padding: 0.28% 0px;
+}
+
+.navigation_bar {
+    align-items: center;
+    display: flex;
+    font-size: x-large;
+    gap: 100px;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    max-width: 100%;
+}
+
+.navigation_bar a:hover {
+    color: #ECDFCC;
+}
+
+.options {
+    color: inherit;
+}
+
+.options:hover {
+    color: grey;
+    font-size: ;
 }
 
 .our-team {
