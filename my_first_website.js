@@ -41,12 +41,16 @@ const body = document.body;
 const introElements = document.querySelectorAll(".intro");
 const tableOfContentsContainer = document.querySelectorAll(".table-of-contents");
 const homePageBodyContainer = document.querySelectorAll(".home-page-body");
+const welcomeToTheColonyContainer = document.querySelectorAll(".welcome-to-the-colony");
+const formContainer = document.querySelectorAll(".form");
 
 toggleBtn.addEventListener("click", ()=>{
     body.classList.toggle("light-mode");
     introElements.forEach(el => el.classList.toggle("light-mode"));
     tableOfContentsContainer.forEach(el => el.classList.toggle("light-mode"));
     homePageBodyContainer.forEach(el => el.classList.toggle("light-mode"));
+    welcomeToTheColonyContainer.forEach(el => el.classList.toggle("light-mode"));
+    formContainer.forEach(el => el.classList.toggle("light-mode"));
     if (body.classList.contains("light-mode")){
         toggleBtn.textContent = "Switch to dark mode"
     }
