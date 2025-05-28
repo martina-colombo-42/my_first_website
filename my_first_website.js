@@ -8,6 +8,24 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const logIn = document.getElementById("log_in");
+  if (logIn) {
+    logIn.addEventListener("click", () => {
+      alert("Joining the colony...");
+      window.open("home.html", "_self");
+    });
+  }
+
+  const register = document.getElementById("register_button");
+  if (register) {
+    register.addEventListener("click", () => {
+      alert("Almost there!");
+      window.open("login.html", "_self");
+    });
+  }
+
+
+
   // Changing the pic in About Us while hovering
   const img = document.getElementById("about-us-pic");
   if (img) {
