@@ -37,6 +37,7 @@ window.addEventListener("DOMContentLoaded", () => {
 //Dark Mode & Light Mode
 const toggleBtn = document.getElementById("toggleBtn");
 const body = document.body;
+const foot = document.querySelector("footer");
 
 const introElements = document.querySelectorAll(".intro");
 const tableOfContentsContainer = document.querySelectorAll(".table-of-contents");
@@ -46,15 +47,16 @@ const formContainer = document.querySelectorAll(".form");
 
 toggleBtn.addEventListener("click", ()=>{
     body.classList.toggle("light-mode");
+    foot.classList.toggle("light-mode");
     introElements.forEach(el => el.classList.toggle("light-mode"));
     tableOfContentsContainer.forEach(el => el.classList.toggle("light-mode"));
     homePageBodyContainer.forEach(el => el.classList.toggle("light-mode"));
     welcomeToTheColonyContainer.forEach(el => el.classList.toggle("light-mode"));
     formContainer.forEach(el => el.classList.toggle("light-mode"));
+
     if (body.classList.contains("light-mode")){
-        toggleBtn.textContent = "Switch to dark mode"
+        toggleBtn.textContent = "Switch to dark mode";
+    } else {
+        toggleBtn.textContent = "Switch to light mode";
     }
-    else {
-        toggleBtn.textContent = "Switch to light mode"
-    }
-})
+});

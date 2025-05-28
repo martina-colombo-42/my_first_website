@@ -1,13 +1,21 @@
 * {
-    cursor: url('images/bat_cursor_46.png'), auto;
+    cursor: url('images/bat_cursor.svg'), auto;
 }
 
 a {
     color: grey;
 }
 
+body.light-mode a {
+    color: #32281A;
+}
+
 a:hover {
     color: white;
+}
+
+body.light-mode a:hover {
+    color: #7B3F00;
 }
 
 #about-us-pic {
@@ -70,6 +78,10 @@ footer {
     display: block;
     font-size: small;
     justify-content: center;
+}
+
+footer.light-mode {
+    color: black;
 }
 
 .form {
