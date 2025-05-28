@@ -33,6 +33,12 @@ body {
     text-align: center;
 }
 
+body.light-mode {
+    background-color: #D8AE7E;
+    color: black;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
 button {
     border: 1px solid black;
     border-radius: 5px;
@@ -94,6 +100,11 @@ footer {
     text-align: left;
 }
 
+.home-page-body.light-mode {
+    background-color: #FFE0B5;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
 .home-page-img {
     align-items: center;
     border: 4px solid rgb(53, 10, 10);
@@ -122,6 +133,11 @@ input {
     padding-bottom: 2.2%;
     padding-left: 0.52%;
     padding-top: 0.37%;
+}
+
+.intro.light-mode {
+    background-color: #F8C794;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 label {
@@ -181,6 +197,10 @@ label {
     color: inherit;
 }
 
+.section-title a:hover {
+    color: #ECDFCC
+}
+
 .table-of-contents {
     align-items: center;
     background-color: #ECDFCC;
@@ -198,6 +218,11 @@ label {
     padding-left: 1.04%;
     padding-top: 0.37%;
     text-align: left;
+}
+
+.table-of-contents.light-mode {
+    background-color: #FFF2D7;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 #theme_banner {

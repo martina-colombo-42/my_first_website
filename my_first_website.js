@@ -33,3 +33,24 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   }, 10000);
 });
+
+//Dark Mode & Light Mode
+const toggleBtn = document.getElementById("toggleBtn");
+const body = document.body;
+
+const introElements = document.querySelectorAll(".intro");
+const tableOfContentsContainer = document.querySelectorAll(".table-of-contents");
+const homePageBodyContainer = document.querySelectorAll(".home-page-body");
+
+toggleBtn.addEventListener("click", ()=>{
+    body.classList.toggle("light-mode");
+    introElements.forEach(el => el.classList.toggle("light-mode"));
+    tableOfContentsContainer.forEach(el => el.classList.toggle("light-mode"));
+    homePageBodyContainer.forEach(el => el.classList.toggle("light-mode"));
+    if (body.classList.contains("light-mode")){
+        toggleBtn.textContent = "Switch to dark mode"
+    }
+    else {
+        toggleBtn.textContent = "Switch to light mode"
+    }
+})
