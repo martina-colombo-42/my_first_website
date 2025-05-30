@@ -25,6 +25,7 @@ body.light-mode a:hover {
 }
 
 #address {
+    font-size: normal;
     margin-left: 26%;
     margin-right: 26%;
     text-align: left;
@@ -61,6 +62,20 @@ button {
     justify-content: flex-end;
     margin-right: 6%;
     margin-bottom: 1%;
+}
+
+#cancel_button:hover {
+    background-color: lightcoral;
+}
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 5px;
+}
+
+#confirm_button:hover {
+    background-color: lightgreen;
 }
 
 #find_us {
@@ -101,6 +116,21 @@ footer.light-mode {
 .form.light-mode {
     background-color: #EBD8C3;
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.go_to_top_button {
+    position: fixed;
+    bottom: 25px;
+    cursor: inherit;
+    right: 25px;
+    background-color: #ECDFCC;
+    color: black;
+    padding: 12px 17px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: x-large;
+    z-index: 1000;
+    transition: background-color 0.3s;
 }
 
 .home-page-body {
@@ -165,6 +195,10 @@ label {
     padding: 0.28% 0px;
 }
 
+#log_in:hover {
+    background-color: lightgreen;
+}
+
 #map {
     padding-top: 1.6%;
 }
@@ -209,6 +243,19 @@ label {
     padding: 1.85%;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+}
+
 .section-title {
     text-align: center;
     font-size: 45px;
@@ -220,6 +267,13 @@ label {
 
 .section-title a:hover {
     color: #ECDFCC
+}
+
+#social_media {
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
 }
 
 .table-of-contents {

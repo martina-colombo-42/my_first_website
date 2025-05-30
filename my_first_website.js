@@ -24,8 +24,6 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-
-
   // Changing the pic in About Us while hovering
   const img = document.getElementById("about-us-pic");
   if (img) {
@@ -77,4 +75,19 @@ toggleBtn.addEventListener("click", ()=>{
     } else {
         toggleBtn.textContent = "Switch to light mode";
     }
+});
+
+const confirmButton = document.getElementById("confirm_button");
+confirmButton.addEventListener("mouseover", ()=>{
+  confirmButton.classList.toggle("active");
+});
+
+const logIn = document.getElementById("log_in");
+logIn.addEventListener("mouseover", ()=>{
+  confirmButton.classList.toggle("active");
+});
+
+const cancel = document.getElementById("cancel_button");
+cancel.addEventListener("mouseover", ()=>{
+  cancel.classList.toggle("active");
 });
