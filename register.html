@@ -36,7 +36,7 @@
         </div>
         <div class="form">
             <fieldset>
-                <form action="login.html">
+                <form id="signup_form" action="login.html">
                     <label>First Name *</label><br>
                     <input type="text" placeholder="Enter your first name" required><br>
                     <label>Last Name *</label><br>
@@ -46,9 +46,9 @@
                     <label>Email *</label><br>
                     <input type="email" placeholder="namesurname@email.com" required><br>
                     <label>Password *</label><br>
-                    <input type="password" placeholder="Enter your password"><br>
-                    <p>It must contain 10 characters, a number, and one special character</p>
-                    <input type="password" placeholder="Enter your password again"><br>
+                    <input type="password" id="password_registration" placeholder="Enter your password" required><br>
+                    <p id="error-message" style="color: red;"></p>
+                    <input type="password" placeholder="Enter your password again" required><br>
                     <label>Phone</label><br>
                     <input type="text" placeholder="Enter your phone number"><br>
                     <label>Address</label><br>
@@ -62,7 +62,7 @@
                     <p>* are required fields</p>
                 </form>
             </fieldset>
-            </div>
+        </div>
     </div>
     <div>
         <hr>

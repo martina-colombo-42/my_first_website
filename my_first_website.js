@@ -42,10 +42,7 @@ window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     const banner = document.getElementById("theme_banner");
     if (banner) {
-      console.log("Hiding banner...");
       banner.style.display = "none";
-    } else {
-      console.log("Banner element not found!");
     }
   }, 10000);
 });
