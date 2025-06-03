@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", () => {
   if (logIn) {
     logIn.addEventListener("click", () => {
       alert("Joining the colony...");
-      window.open("home.html", "_self");
+      window.open("index.html", "_self");
     });
   }
 
