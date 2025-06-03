@@ -8,6 +8,8 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+
+  //Message in the window that brings the user from "Log In" to "Home"
   const logIn = document.getElementById("log_in");
   if (logIn) {
     logIn.addEventListener("click", () => {
@@ -16,6 +18,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  //Message in the window that brings the user from "Register" to "Log In"
   const register = document.getElementById("register_button");
   if (register) {
     register.addEventListener("click", () => {
@@ -74,6 +77,7 @@ toggleBtn.addEventListener("click", ()=>{
     }
 });
 
+//Change the colours of buttons while hovering (red and green)
 const confirmButton = document.getElementById("confirm_button");
 confirmButton.addEventListener("mouseover", ()=>{
   confirmButton.classList.toggle("active");
